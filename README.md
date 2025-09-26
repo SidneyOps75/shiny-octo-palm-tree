@@ -1,52 +1,77 @@
-# Calculator App
+# Jac Programming Language Learning Repository
 
-A simple calculator application built with the Jac programming language, demonstrating object-oriented programming and interactive menu systems.
+This repository contains assignments and projects for learning the Jac programming language, demonstrating object-spatial programming and scale-agnostic architecture.
 
-##  Features
+##  Environment Setup
 
-- Basic arithmetic operations (addition, subtraction, multiplication, division, power)
-- Interactive menu-driven interface
-- Error handling for division by zero
-- Clean object-oriented design
-
-##  Prerequisites
-
+### Prerequisites
 - Python 3.11+
-- Jac programming language (jaclang)
+- Conda (Miniconda or Anaconda)
 
-##  Installation
+### Installation Steps
 
-1. Clone the repository:
+1. **Clone the repository:**
 ```bash
 git clone https://github.com/SidneyOps75/shiny-octo-palm-tree.git
 cd shiny-octo-palm-tree
 ```
 
-2. Install dependencies:
+2. **Create and activate conda environment:**
 ```bash
-pip install -r requirements.txt
+conda create -n jac-env python=3.11
+conda activate jac-env
 ```
 
-##  Usage
-
-### Run Calculator
+3. **Install Jac programming language:**
 ```bash
-jac run calculator.jac
+pip install jaclang
+```
+
+4. **Verify installation:**
+```bash
+jac --version
+```
+
+5. **Install project dependencies:**
+```bash
+pip install -r requirements.txt
 ```
 
 ##  Project Structure
 
 ```
-├── calculator.jac        # Complete calculator application
-└── requirements.txt      # Python dependencies
+├── assignment1/          # Calculator application
+│   ├── calculator.jac    # Interactive calculator
+│   ├── README.md         # Assignment documentation
+│   └── requirements.txt  # Dependencies
+└── README.md            # This file
 ```
 
-##  Learning Objectives
+##  Getting Started
 
-- Understanding Jac's object-oriented programming
-- Interactive user input handling
-- Error handling and validation
-- Menu-driven application design
+1. Activate your conda environment:
+```bash
+conda activate jac-env
+```
+
+2. Navigate to an assignment folder:
+```bash
+cd assignment1
+```
+
+3. Run the Jac application:
+```bash
+jac run calculator.jac
+```
+
+##  Learning Resources
+
+- [Jac Documentation](https://github.com/Jaseci-Labs/jaseci)
+- [Jac Language Guide](https://docs.jaseci.org/)
+
+##  Contributing
+
+Feel free to submit issues and enhancement requests!
 
 ##  License
 
