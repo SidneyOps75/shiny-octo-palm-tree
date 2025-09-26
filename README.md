@@ -48,6 +48,6 @@ jac run calculator.jac
 - Error handling and validation
 - Menu-driven application design
 
-## 📄 License
+##  License
 
 This project is for educational purposes.
